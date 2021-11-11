@@ -74,7 +74,7 @@ public class PerfilUsuario extends AppCompatActivity {
     });
     }
     public void escribirTweets(String autor){
-        String tweet = "hola mundo firebase 2";
+        String tweet = "La vida hay que jugarla";
         String fecha = "10/06/2021"; //Fecha actual
         Map<String, String> hola_tweet = new HashMap<String, String>();
         hola_tweet.put("autor", autor);
